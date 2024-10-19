@@ -1,0 +1,127 @@
+/* Общие стили */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #F4EFE6;
+    color: #162A2C;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5E6C5B;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+nav {
+    background-color: #162A2C;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Контейнер и секции */
+.container {
+    padding: 40px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section h2 {
+    color: #5E6C5B;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Карточки для секций */
+.card {
+    background-color: #FEFCF6;
+    border: 1px solid #D6E0E2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 1.1em;
+    color: #162A2C;
+}
+
+.card h3 {
+    color: #5E6C5B;
+    font-size: 1.5em;
+}
+
+/* Графики и изображения */
+.graph {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.graph img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #686867;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Стили для мобильных устройств */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        font-size: 0.9em;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .section h2 {
+        font-size: 1.8em;
+    }
+}
